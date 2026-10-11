@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chatbot demo - K. K. Wagh Polytechnic</title>
+<style>
+  body{font-family:Arial,sans-serif;margin:0;color:#222}
+  header{background:#0b3d91;color:#fff;padding:18px 24px}
+  main{padding:24px;max-width:800px}
+</style>
+</head>
+<body>
+  <header><h2 style="margin:0">K. K. Wagh Polytechnic, Nashik - Chatbot Test Page</h2></header>
+  <main>
+    <p>This is a test page. The chat button appears at the bottom-right corner.</p>
+    <p>Try: <i>admission process</i>, <i>documents required</i>, <i>computer technology</i>, <i>fees</i>, <i>प्रवेश</i>, <i>contact</i>.</p>
+  </main>
+
+  <!-- OPTIONAL settings (remove or edit). Must come BEFORE the chatbot script. -->
+  <script>
+    window.KKW_CHATBOT_CONFIG = {
+      // color: "#0b3d91",
+      // extra: { fees: "Add your fee details here." },
+      // onEvent: function (type, data) { console.log(type, data); }
+    };
+  </script>
+  <script src="kkwagh-chatbot.js" defer></script>
+</body>
+</html>
